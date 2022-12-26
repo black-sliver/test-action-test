@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: black-sliver/test-action@main
+      - uses: black-sliver/test-action@main
         with:
           strict: false
       - uses: black-sliver/test-action@main
