@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     name: "test test action"
     steps:
-      - uses: black-sliver/test-action
+      - uses: black-sliver/test-action@main
 
